@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Holkar | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav__content">
+                <div class="nav__logo">HH</div>
+                <ul class="nav__links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="hero__content">
+            <div class="hero__left">
+                <h1 class="hero__title">Harsh Rahul Holkar</h1>
+                <p class="hero__subtitle">Data Scientist | Web Developer | Creative Thinker</p>
+                <div class="hero__social">
+                    <a href="mailto:hrholkar@gmail.com" class="social__link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/harsh-holkar-32ab54321" class="social__link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__right">
+                <div class="hero__image-wrapper">
+                    <img src="./WhatsApp Image 2025-03-18 at 22.24.45_e63cb2ff.jpg" alt="Harsh Holkar" class="hero__image">
+                    <div class="image__border"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="section__content">
+                <h2 class="section__title">About Me</h2>
+                <p class="about__text">
+                    Hello! I'm Harsh Holkar, a first-year BTech Data Science student at MIT Academy of Engineering, Alandi, 
+                    passionate about leveraging data to solve real-world problems. Skilled in programming, statistics, 
+                    and machine learning, I enjoy working on data analysis, visualization, and predictive modeling. 
+                    I am constantly learning and exploring new tools to grow in this dynamic field.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="section bg-light">
+            <div class="section__content">
+                <h2 class="section__title">Education</h2>
+                <div class="education__card">
+                    <h3 class="education__degree">BTech in Data Science</h3>
+                    <p class="education__institute">MIT Academy of Engineering</p>
+                    <div class="education__details">
+                        <p class="education__year">2023 - 2027</p>
+                        <p class="education__affiliation">Affiliated to Savitribai Phule University</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section__content">
+                <h2 class="section__title">Projects</h2>
+                <div class="project__grid">
+                    <article class="project__card">
+                        <div class="project__header">
+                            <i class="fas fa-hospital project__icon"></i>
+                            <h3 class="project__title">College Healthcare Centre</h3>
+                        </div>
+                        <p class="project__description">
+                            Developed a comprehensive healthcare website for students featuring First Aid Kit locations, 
+                            emergency manuals, and OPD appointment booking system to promote health awareness and 
+                            easy access to medical services.
+                        </p>
+                        <div class="project__tech">
+                            <span class="tech__pill">Web Development</span>
+                            <span class="tech__pill">Healthcare</span>
+                            <span class="tech__pill">UX Design</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="section__content">
+                <h2 class="section__title">Get in Touch</h2>
+                <form class="contact__form">
+                    <div class="form__group">
+                        <input type="text" placeholder="Your Name" required>
+                        <i class="fas fa-user form__icon"></i>
+                    </div>
+                    <div class="form__group">
+                        <input type="email" placeholder="Your Email" required>
+                        <i class="fas fa-envelope form__icon"></i>
+                    </div>
+                    <div class="form__group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <i class="fas fa-comment form__icon"></i>
+                    </div>
+                    <button type="submit" class="btn btn--primary">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Harsh Holkar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
